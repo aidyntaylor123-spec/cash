@@ -6,8 +6,8 @@ getgenv().ManualConstructionToggle = true
 getgenv().ConstructionManuallyActivated = false
 
 local Window = WindUI:CreateWindow({
-    Title = "Crashouthub", 
-    Icon = "rbxassetid://98058064921526",
+    Title = "popbronx", 
+    Icon = "rbxassetid://107209571314368",
     IconSize = 45,
     Author = "TB3",
     Folder = "MySuperHub",
@@ -21,7 +21,7 @@ local Window = WindUI:CreateWindow({
     HideSearchBar = false,
     ScrollBarEnabled = true,
     
-    Background = "rbxassetid://98058064921526",
+    Background = "rbxassetid://",
     
     User = {
         Enabled = false,
@@ -32,13 +32,13 @@ local Window = WindUI:CreateWindow({
     },
 
     Thumbnail = {
-        Image = "rbxassetid://98058064921526", 
+        Image = "rbxassetid://107209571314368", 
         Title = "Thumbnail",
     },
 })
 Window:EditOpenButton({
-    Title = "Crashouthub",
-    Icon = "rbxassetid://98058064921526",
+    Title = "popbronx",
+    Icon = "rbxassetid://107209571314368",
     CornerRadius = UDim.new(0,16),
     StrokeThickness = 2,
     Color = ColorSequence.new(Color3.fromRGB(255, 0, 0)), -- dark blue
@@ -240,7 +240,7 @@ local function updateCharacterReferences()
 end
 updateCharacterReferences()
 local locations = {
-    ["Bank"] = Vector3.new(-226.22584533691406, 283.8095703125, -1217.7509765625),
+  ["Bank"] = Vector3.new(-226.22584533691406, 283.8095703125, -1217.7509765625),
     ["Money Wash"] = Vector3.new(-376.1771 - 601, 197.6838 + 56, -1975.5855 + 1035 + 248),
     ["Safe Items"] = Vector3.new(48917.8984 + 19597, 53680.5 - 396 - 343, -796.09),
     ["Pawn Shop"] = Vector3.new(-23.6431 - 1026, 391.5367 - 138, -1118.2697 + 300 + 4),
@@ -255,7 +255,7 @@ local locations = {
     ["Pent House"] = Vector3.new(-178.27471923828125, 397.1383056640625, -573.0322265625),
     ["Pent House2"] = Vector3.new(-618.0346069335938, 356.5451354980469, -681.4015502929688),
     ["Mini Mansion"] = Vector3.new(-791.5180053710938, 256.7944641113281, 1414.4248046875),
-    ["Backpack Shop"] = Vector3.new(-692.4142456054688, 253.78091430664062, -681.0672607421875),
+ ["Backpack Shop"] = Vector3.new(-715, 253, -691),
     ["Frozen Shop"] = Vector3.new(-216.31436157226562, 284.031494140625, -1169.032470703125),
     ["Drip Shop"] = Vector3.new(7378.6953 + 60084, 18630.0352 - 8141, 205.5895 + 344),
     ["Chicken Wings"] = Vector3.new(-1559.9142 + 512 + 90, 253.5367, -815.9442),
